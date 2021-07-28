@@ -69,3 +69,16 @@ nav a {
 nav a:hover {
     font-weight: bold;
 }
+
+/* hero image */
+
+#hero_img {
+    background-image: url(/img/hero-img-4.jpg);
+    height: 410px;
+    width: 80%;
+    background-repeat: no-repeat center center;
+    background-size: cover;
+    margin-left: 10%;
+    margin-top: 10px;
+
+}
