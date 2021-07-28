@@ -76,7 +76,7 @@ nav a:hover {
 #hero_img {
     
     background-image: url(/img/hero-img-4.jpg);
-    height: 550px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: 100% auto center center;
     margin-left: 10%;
@@ -94,6 +94,7 @@ nav a:hover {
 /* description section */
 
 #description {
+    height: 600px;
     width: 100%;
     border-top: solid black 10px;
     position: relative;
@@ -101,7 +102,7 @@ nav a:hover {
 
 #inland {
     float: right;
-    padding: 10px 10px;
+    padding: 40px 10px 40px 40px;
     height: 300px;
     width: 40%;
 }
@@ -109,7 +110,7 @@ nav a:hover {
 #description p {
     padding-top: 30px;
     padding-left: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 #description h2 {
@@ -119,8 +120,15 @@ nav a:hover {
 }
 
 #livorno {
-    padding: 10px 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
     height: 300px;
     width: 40%;
     object-fit: cover;
+    float: left;
+}
+
+#us {
+    display: inline;
 }
