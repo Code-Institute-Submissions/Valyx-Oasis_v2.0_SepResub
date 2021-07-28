@@ -31,4 +31,29 @@ h2 {
 #logo {
     float: left;
     font-size: 240%;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+/* navigation menus */
+
+#nav_menus {
+    font-family: Cormorant Garamond, sans-serif;
+    color: black;
+    letter-spacing: 5px;
+    font-size: 110%;
+}
+
+#nav_menus li {
+    float: right;
+    list-style-type: none;
+    margin: 25px;
+
+}
+
+#black_line {
+    height: 70px;
+    width: 100%;
+    background-color:rgba(235, 230, 230, 0.35);
+    border-bottom: 10px solid black;
 }
