@@ -30,7 +30,7 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 240%;
+    font-size: 260%;
     margin-top: 10px;
     margin-left: 10%;
 }
@@ -56,4 +56,16 @@ h2 {
     width: 100%;
     background-color:rgba(235, 230, 230, 0.35);
     border-bottom: 10px solid black;
+}
+
+/*navigation anchor styling */
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 130%;
+}
+
+nav a:hover {
+    font-weight: bold;
 }
