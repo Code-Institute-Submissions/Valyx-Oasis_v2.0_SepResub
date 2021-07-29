@@ -149,3 +149,36 @@ nav a:hover {
 #description a {
     color: black;
 }
+
+/* opening times&events */
+
+#times {
+    clear: both;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+#schedule {
+    padding: 5%;
+}
+
+#schedule h3 {
+    font-size: 140%;
+}
+#schedule td, th {
+    padding: 5px;
+}
+
+#schedule .no_left_padding {
+    padding-left: 0px;
+}
+
+#times #times_right {
+    clear: both;
+    line-height: 30px;
+    float: right;
+    height: 300px;
+    width: 50%;
+    padding-right: 40px;
+}
