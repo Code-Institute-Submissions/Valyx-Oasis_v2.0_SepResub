@@ -24,9 +24,10 @@ h1 {
     color: black;
 }
 
-h2 {
+h2, h3 {
     font-family: Cormorant Garamond, sans-serif;
     font-weight: 400;
+    color: black;
 }
 
 #logo {
@@ -105,12 +106,13 @@ nav a:hover {
     padding: 40px 10px 40px 40px;
     height: 300px;
     width: 40%;
+    object-fit: cover;
 }
 
 #description p {
     padding-top: 30px;
     padding-left: 40px;
-    padding-bottom: 0px;
+    line-height: 30px;
 }
 
 #description h2 {
@@ -121,7 +123,7 @@ nav a:hover {
 
 #livorno {
     padding-left: 10px;
-    padding-right: 30px;
+    padding-right: 40px;
     padding-bottom: 30px;
     height: 300px;
     width: 40%;
@@ -130,5 +132,20 @@ nav a:hover {
 }
 
 #us {
-    display: inline;
+    padding-right: 40px;
+}
+
+#sg {
+    padding: 30px 40px;
+    font-size: 120%;
+}
+
+#description h3 {
+    text-align: center;
+    font-size: 140%;
+    padding: 0px 40px;
+}
+
+#description a {
+    color: black;
 }
