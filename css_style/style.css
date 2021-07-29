@@ -76,7 +76,7 @@ nav a:hover {
 
 #hero_img {
     
-    background-image: url(/img/hero-img-4.jpg);
+    background-image: url(/img/hero-img-4.jpg) ;
     height: 600px;
     background-repeat: no-repeat;
     background-size: 100% auto center center;
@@ -85,7 +85,7 @@ nav a:hover {
     position: relative;
 }
 
-#hero_img p {
+#hero_mes {
     text-align: right;
     position: absolute;
     top: 40px;
