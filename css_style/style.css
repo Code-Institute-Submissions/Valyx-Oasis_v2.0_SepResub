@@ -181,11 +181,37 @@ nav a:hover {
     padding-left: 0px;
 }
 
+#times_table_div {
+    height: 300px;
+    width: 50%;
+}
 #times #times_right {
-    clear: both;
     line-height: 30px;
     float: right;
+    right: 5%;
+    top: 5%;
     height: 300px;
     width: 50%;
     padding-right: 40px;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
