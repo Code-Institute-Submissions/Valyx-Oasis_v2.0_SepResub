@@ -225,6 +225,7 @@ footer {
     background-position: right;
     background-size: cover;
     height: 600px;
+    border-bottom: solid black 10px;
 }
 
 #form_div {
