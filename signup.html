@@ -8,12 +8,12 @@
     <meta name="description" content="Web site for bikers in Tuscany, Italy">
     <meta name="keywords" content="biker's oasis, biker, gathering,tuscany,motorcycle lovers">
 
-    <link rel="stylesheet" href="/css_style/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Biker's Oasis</title>
 </head>
 
 <body>
-    <header><a href="home.html">
+    <header><a href="index.html">
             <h1 id="logo"><em>Biker's Oasis</em></h1>
         </a>
     </header>
@@ -28,43 +28,47 @@
                 <a href="menus.html">Menus</a>
             </li>
             <li>
-                <a href="home.html">Home</a>
+                <a href="index.html">Home</a>
             </li>
         </ul>
 
     </nav>
     <div id="black_line"></div>
 
-
     <section id="form_area">
         <div id="form_div">
             <form method = "post" action = "#">
                 <h2>A few more steps...</h2>
+                <h3>Place your contact dettails below</h3>
+
                 <label for="fname">First Name</label><br>
-                <input type = "text" id = "fname" name = "first_name" required ><br>
-                <label for = "lname">Last Name</label><br>
-                <input type = "text" id = "lname" name = "last_name" required><br>
-                <label for = "email">Email Address</label><br>
-                <input type = "email" id = "email" name = "email_address" required><br>
+                <input type="text" id="fname" name="first_name" required ><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="last_name" required><br>
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="email_address" required><br>
+
                 <h3>What makes your heart beat ?</h3><br>
-                <label for = "easy_ryder">Custom</label>
-                <input type = "radio" id = "easy_ryder" name = "bike_pref" value = "easy_ryder" required >
-                <label for = "sport">Sport</label>
-                <input type = "radio" id = "sport" name = "bike_pref" value = "sport">
-                <label for = "enduro">Enduro</label>
-                <input type = "radio" id = "enduro" name = "bike_pref" value = "enduro"><br>
+
+                <!--add table for button !-->
+                <label for="easy_ryder">Custom</label>
+                <input type="radio" id="easy_ryder" name="bike_pref" value="easy_ryder" required >
+                <label for="sport">Sport</label>
+                <input type="radio" id="sport" name="bike_pref" value="sport">
+                <label for="enduro">Enduro</label>
+                <input type="radio" id="enduro" name="bike_pref" value="enduro"><br>
 
                 <h3>What made the place special ?</h3><br>
 
-                <label for = "food">The menu!</label>
-                <input type = "radio" id = "food" name = "feedback" value = "food" required >
-                <label for = "location">Location!</label>
-                <input type = "radio" id = "location" name = "feedback" value = "location"><br>
-                <label for = "company">The Company!</label>
-                <input type = "radio" id = "company" name = "feedback" value = "company">
-                <label for = "all">All of it!</label>
-                <input type = "radio" id = "all" name = "feedback" value = "all"><br>
-                <input type = "submit" id="submit" value = "Jump on!">
+                <label for="food">The menu!</label>
+                <input type="radio" id="food" name="feedback" value="food" required >
+                <label for="location">Location!</label>
+                <input type="radio" id="location" name="feedback" value="location"><br>
+                <label for="company">The Company!</label>
+                <input type="radio" id="company" name="feedback" value="company">
+                <label for="all">All of it!</label>
+                <input type="radio" id="all" name="feedback" value="all"><br>
+                <input type="submit" id="submit" value="Jump on!">
             </form>
         </div>
     </section>

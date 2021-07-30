@@ -10,7 +10,7 @@ body {
     font-size: large;
     background-color: rgba(38, 128, 212, 0.9);
     color: rgb(18, 44, 28);
-    background-image: url(../img/Backg-clear\ water.webp); 
+    background-image: url(../img/backg-clear_water.png); 
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -82,10 +82,10 @@ nav a:hover {
 
 #hero_img {
     
-    background-image: url(/img/hero-img-4.jpg) ;
+    background-image: url(../img/hero-img-4.jpg) ;
     height: 600px;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top left;
     background-size: cover;
     margin-left: 10%;
     margin-right: 10%;
@@ -221,7 +221,7 @@ footer {
 /* signup styling */
 
 #form_area {
-    background: url(/img/love_bikers.jpg);
+    background: url(../img/love_bikers.jpg);
     background-position: right;
     background-size: cover;
     height: 600px;
@@ -237,6 +237,7 @@ footer {
 
 form h3 {
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 form h2 {
     padding-bottom: 20px;
@@ -254,3 +255,18 @@ form h2 {
     color:lightblue;
     display: block;
 }
+
+ /* menus styling */
+
+ #menus_section {
+     height: 900px;
+     width:80%;
+     margin-left: 10%;
+     margin-right: 10%;
+     background-color: cornsilk;
+ }
+ .div_menu {
+     height: 33%;
+     width: 100%;
+ }
+ 
