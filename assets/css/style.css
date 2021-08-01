@@ -143,7 +143,7 @@ nav a:hover {
 }
 
 #sg {
-    padding: 30px 40px;
+    margin: 20px 50px;
     font-size: 120%;
 }
 
@@ -168,6 +168,7 @@ nav a:hover {
 
 #schedule {
     margin: 5%;
+    padding-top: 15px;
 }
 
 #schedule h3 {
@@ -193,13 +194,12 @@ nav a:hover {
     top: 5%;
     height: 300px;
     width: 40%;
-    padding-right: 40px;
 }
 
 /* footer */
 
 footer {
-    height: 150px;
+    height: 100px;
 }
 
 .social-networks {
@@ -214,9 +214,8 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 3% 5%;
-    color: #dce5eb;
+    color: black;
 }
-
 
 
 /* signup styling */
@@ -259,15 +258,56 @@ form h2 {
 
  /* menus styling */
 
- #menus_section {
-     height: 900px;
+.menus_section {
+     max-height: 900px;
      width:80%;
      margin-left: 10%;
      margin-right: 10%;
      background-color: cornsilk;
+     background-image: url(../img/waiter.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position:center center ;
+     line-height: 20px;}
+
+.menu_cover {
+         background-color: rgba(188, 189, 233, 0.4);
+    }
+
+.div_menu {
+     padding: 20px 40px;
+     background-color: rgba(188, 189, 233, 0.4);
+    }
+
+ #drinks {
+     max-height: 300px;
+     width:80%;
+     margin-left: 10%;
+     margin-right: 10%;
+     background-color: cornsilk;
+     line-height: 20px;
+     background-image: url(../img/drinks.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position:center center ;
  }
- .div_menu {
-     height: 33%;
-     width: 100%;
+
+ .menus_section h3 {
+     padding:30px 50px;
+     font-size: 120%;
  }
  
+ .menus_section h2 {
+     text-align: center;
+     padding-top: 30px;
+     padding-bottom: 20px;
+ }
+
+ .menus_section ul, li {
+    padding: 5px 30px;
+    list-style: none;
+ }
+
+ p a {
+     color: black;
+ }
