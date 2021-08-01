@@ -102,8 +102,6 @@ nav a:hover {
 /* description section */
 
 #description {
-    height: 900px;
-    width: 100%;
     border-top: solid black 10px;
     position: relative;
 }
