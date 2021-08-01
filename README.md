@@ -6,5 +6,10 @@ Features: navigation bars and links (across the main page) to help the user easl
 By adding images that showcase the scenery of the land and as well it's diversity (sea/hilly areas) it stimultes the user's interest in the reagion itself
 By adding images containing bykers it makes the user feel closer to the content since it's displaying realtable information.
 
+Sadly due to personal time limits the project is not fully finished
+
+media queries are still to be implemented 
+the only test (done and passed) is the lighthouse one
+the readme me file (as you can already see ) is not finished
 
 
