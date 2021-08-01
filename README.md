@@ -15,4 +15,4 @@ the readme me file (as you can already see ) is not finished
 you can get a clone of my project here: git clone https://github.com/Valyx/Oasis_v2.0.git
 the website's page is https://valyx.github.io/Oasis_v2.0/
 while the github one is the following https://github.com/Valyx/Oasis_v2.0
-
+not sure it counts toward plagiarism so just in case: the social icons part of the code was built up by following the love running example
