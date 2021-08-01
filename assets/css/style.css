@@ -102,7 +102,7 @@ nav a:hover {
 /* description section */
 
 #description {
-    height: 600px;
+    height: 900px;
     width: 100%;
     border-top: solid black 10px;
     position: relative;
@@ -167,14 +167,15 @@ nav a:hover {
 }
 
 #schedule {
-    padding: 5%;
+    margin: 5%;
 }
 
 #schedule h3 {
     font-size: 140%;
 }
 #schedule td, th {
-    padding: 5px;
+    margin-top: 40px;
+    margin-left: 5%;
 }
 
 #schedule .no_left_padding {
@@ -183,7 +184,7 @@ nav a:hover {
 
 #times_table_div {
     height: 300px;
-    width: 50%;
+    width: 60%;
 }
 #times #times_right {
     line-height: 30px;
@@ -191,7 +192,7 @@ nav a:hover {
     right: 5%;
     top: 5%;
     height: 300px;
-    width: 50%;
+    width: 40%;
     padding-right: 40px;
 }
 
@@ -231,7 +232,7 @@ footer {
 #form_div {
     height: 100%;
     max-width: 25%;
-    background-color: rgba(135, 186, 209, 0.4);
+    background-color: rgba(135, 186, 209, 0.7);
     padding-left: 20px;
 }
 
