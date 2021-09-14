@@ -9,7 +9,7 @@ body {
     font-family:Raleway, sans-serif ;
     font-size: large;
     background-color: rgba(38, 128, 212, 0.9);
-    color: rgb(18, 44, 28);
+    color: rgb(0, 0, 0);
     background-image: url(../img/backg-clear_water.png); 
     background-repeat: no-repeat;
     background-size:cover;
@@ -158,23 +158,21 @@ nav a:hover {
 /* opening times&events */
 
 #times {
-    clear: both;
-    height: 300px;
     width: 100%;
-    position: relative;
+    display: flex;
+    object-position: justify;
+    flex-direction: column;
 }
 
 #schedule {
-    margin: 5%;
-    padding-top: 15px;
+    margin: 20px 40px 40px;
+    inline-size: fit-content;
+    border-spacing: 10px;
 }
 
 #schedule h3 {
     font-size: 140%;
-}
-#schedule td, th {
-    margin-top: 40px;
-    margin-left: 5%;
+    padding: 10px;
 }
 
 #schedule .no_left_padding {
@@ -185,13 +183,9 @@ nav a:hover {
     height: 300px;
     width: 60%;
 }
-#times #times_right {
-    line-height: 30px;
-    float: right;
-    right: 5%;
-    top: 5%;
-    height: 300px;
-    width: 40%;
+
+#times p {
+    padding-left: 40px;
 }
 
 /* footer */
@@ -269,7 +263,7 @@ form h2 {
      line-height: 20px;}
 
 .menu_cover {
-         background-color: rgba(188, 189, 233, 0.4);
+    background-color: rgb(233 188 207 / 45%);
     }
 
 .div_menu {
@@ -296,9 +290,10 @@ form h2 {
  }
  
  .menus_section h2 {
-     text-align: center;
-     padding-top: 30px;
-     padding-bottom: 20px;
+    margin-top: 5%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
  }
 
  .menus_section ul, li {
@@ -307,5 +302,5 @@ form h2 {
  }
 
  p a {
-     color: black;
+     color: revert;
  }
