@@ -192,6 +192,7 @@ nav a:hover {
 
 footer {
     height: 100px;
+    margin-top: 50px;
 }
 
 .social-networks {
@@ -235,6 +236,14 @@ form h2 {
     padding-bottom: 20px;
     padding-top: 20px;
     font-size: 140%;
+}
+
+#signup_moto_type {
+    display: flex;
+}
+
+#signup_reasons {
+    display: table;
 }
 
 #submit {
