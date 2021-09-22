@@ -60,7 +60,7 @@ h2, h3 {
 }
 
 #black_line {
-    margin-top: 70px;
+    margin-top: 60px;
     width: 100%;
     background-color:rgba(235, 230, 230, 0.35);
     border-bottom: 10px solid black;
@@ -223,13 +223,11 @@ footer {
     background: url(../img/love_bikers.jpg);
     background-position: right;
     background-size: cover;
-    height: 600px;
     border-bottom: solid black 10px;
 }
 
 #form_div {
     height: 100%;
-    max-width: 25%;
     background-color: rgba(135, 186, 209, 0.7);
     padding-left: 20px;
 }
@@ -253,14 +251,18 @@ form h2 {
 }
 
 #submit {
-    margin-top: 20px;
+    margin: 20px 40px;
     border-radius: 2px;
     padding: 15px 30px;
     text-align: center;
     font-size: 110%;
     background-color: #ee4f4f;
-    color:lightblue;
+    color: lightblue;
     display: block;
+}
+
+#signup_footer {
+    margin-top: 0px;
 }
 
  /* menus styling */
