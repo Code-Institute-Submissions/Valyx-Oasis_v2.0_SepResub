@@ -175,8 +175,8 @@ nav a:hover {
     border-spacing: 10px;
 }
 
-#schedule h3 {
-    font-size: 140%;
+#schedule th p {
+    font-size: 110%;
     padding: 10px;
 }
 
