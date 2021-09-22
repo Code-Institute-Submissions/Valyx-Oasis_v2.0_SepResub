@@ -266,8 +266,6 @@ form h2 {
  /* menus styling */
 
 .menus_section {
-     max-height: 900px;
-     width:80%;
      margin-left: 10%;
      margin-right: 10%;
      background-color: cornsilk;
@@ -282,13 +280,10 @@ form h2 {
     }
 
 .div_menu {
-     padding: 20px 40px;
      background-color: rgba(188, 189, 233, 0.4);
     }
 
  #drinks {
-     max-height: 300px;
-     width:80%;
      margin-left: 10%;
      margin-right: 10%;
      background-color: cornsilk;
@@ -363,6 +358,11 @@ form h2 {
     #nav_menus {
         display: inline-flex;
         flex-direction: column-reverse;
+    }
+
+    .menus_section ul, li {
+        padding: 5px 10px;
+        list-style: none;
     }
 
 
