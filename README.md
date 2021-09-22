@@ -79,7 +79,7 @@ The website deployment was tested on the folowing browsers wothout incuring in a
 - HTML
   - No errors were returned when passing through the official [W3C validator]()
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator]()
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalyx.github.io%2FOasis_v2.0%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=it)
  
 
 ## Deployment
@@ -90,6 +90,7 @@ The website deployment was tested on the folowing browsers wothout incuring in a
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here -  https://valyx.github.io/Oasis_v2.0/
+The link the the repository can be found here - https://github.com/Valyx/Oasis_v2.0
 
 ## Bugs:
     For some reson my code works perfectly (the code regarding the table's overflow on smaller devices) when i'm testing it on the debbuging tool but it doesn't seem to work one amireponsive website/when i access it from my phone. The code was updated to github and should be using the latest verion on external websites as well but for some reason it doesn't appear to work. I will add an image as proof of the fact that during the testing the code was working fine (see below):
@@ -104,7 +105,7 @@ The live link can be found here -  https://valyx.github.io/Oasis_v2.0/
 - i've learned how to use flexboxes during the period that i was working at my second project (even tho the styling of the signup area changed meanwhile and there's no more a real need for a flex box i still wanted to mention it here since i've left the display of that area setupped by using a flex box). In order to learn them i've folowed this tutorial - https://www.youtube.com/watch?v=vQAvjof1oe4&t=493s and as well played around with the in-build function that pops up when using chrome's debugger
 - The code for the footer was done by following the Love Running project example
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- The fonts were taken from https://fonts.google.com/
+- The fonts were taken from [Google Fonts](https://fonts.google.com/)
 - Other knowledge was gathered from https://www.w3schools.com/ and https://stackoverflow.com/
 
 ### Media
