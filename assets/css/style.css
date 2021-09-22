@@ -53,8 +53,14 @@ h2, h3 {
 
 }
 
+#nav_div{
+    margin-top: 0px;
+    /*display: inline-block; for lower than 800 */
+    display: list-item;
+}
+
 #black_line {
-    height: 70px;
+    margin-top: 70px;
     width: 100%;
     background-color:rgba(235, 230, 230, 0.35);
     border-bottom: 10px solid black;
@@ -313,3 +319,51 @@ form h2 {
  p a {
      color: revert;
  }
+
+ /* media queries */
+
+ @media screen and (max-width: 850px){
+
+    #nav_div{
+        margin-top: 0px;
+        display: inline-block;
+    }
+    #black_line {
+        margin-top: 0px;
+    }
+
+    #hero_mes {
+        width: 80%;
+        text-align: left;
+        position: absolute;
+        top: 0px;
+        left: 11%;
+    }
+
+    #hero_img {
+        background-image: url(../img/hero-img-4.jpg);
+        height: 600px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+ }
+
+ @media only screen and (max-width: 480px) {
+    /* horizontal scrollbar for tables if mobile screen */
+    #schedule {
+        overflow-x: auto;
+        table-layout: fixed;
+        display: block;
+    }
+
+    #nav_div {
+        display: inline-block;
+    }
+
+    #nav_menus {
+        display: inline-flex;
+        flex-direction: column-reverse;
+    }
+
+
+}
