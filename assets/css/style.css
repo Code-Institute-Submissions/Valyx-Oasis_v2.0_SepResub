@@ -166,7 +166,6 @@ nav a:hover {
 #times {
     width: 100%;
     display: flex;
-    object-position: justify;
     flex-direction: column;
 }
 
@@ -244,6 +243,7 @@ form h2 {
 
 #signup_moto_type {
     display: flex;
+    align-items: center;
 }
 
 #signup_reasons {
@@ -349,8 +349,14 @@ form h2 {
     /* horizontal scrollbar for tables if mobile screen */
     #schedule {
         overflow-x: auto;
-        table-layout: fixed;
         display: block;
+        inline-size: unset;
+    }
+
+    #schedule td {
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+        word-wrap: break-word;
     }
 
     #nav_div {
